@@ -1,0 +1,57 @@
+.Container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  ol {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  ol ol {
+    margin-left: 20px;
+  }
+  
+  ol ol li {
+    margin-bottom: 5px;
+  }
+  
+  ol ol ol {
+    margin-left: 20px;
+  }
+  
+  ol ol ol li {
+    margin-bottom: 5px;
+  }
+  
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+  

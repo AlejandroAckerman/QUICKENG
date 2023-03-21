@@ -1,0 +1,157 @@
+.container {
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container input[type="text"], 
+.container input[type="email"], 
+.container input[type="password"], 
+.container input[type="submit"],
+.container select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.container select {
+    margin-bottom: 20px;
+}
+
+.container label[for="rol"] {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.container a {
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.container .error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 20%;
+    }
+    .container h2 {
+        font-size: 20px;
+    }
+}
+
+.formulario-profesor label[for="materia"],
+.formulario-profesor label[for="institucion"] {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.formulario-profesor input[type="text"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario-otro label[for="otro"] {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.formulario-otro input[type="text"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario-otro textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-check {
+    margin-bottom: 20px;
+    }
+    
+    .form-check-input {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -20px;
+    }
+    
+    .form-check-label {
+    margin-left: 25px;
+    font-size: 14px;
+    }
+    
+    .form-check-label a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    .form-check-label a:hover {
+    text-decoration: underline;
+    }
+    
+    .form-check-input:focus {
+    box-shadow: none;
+    outline: none;
+    }
+
+    .enlaces-terminos {
+        display: inline-block;
+        margin-left: 5px;
+      }
+      
